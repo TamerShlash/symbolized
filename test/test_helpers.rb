@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 
 module Symbolized
-  class TestCase < Minitest::Test
+  class TestCase < ::Minitest::Test
     # test/unit backwards compatibility methods
     alias :assert_raise :assert_raises
     alias :assert_not_empty :refute_empty
