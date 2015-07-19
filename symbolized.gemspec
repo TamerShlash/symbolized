@@ -14,4 +14,6 @@ Gem::Specification.new do |s|
   s.files        = Dir["lib/**/*", "LICENSE", "README.md"]
   s.require_path = 'lib'
   s.homepage     = 'https://github.com/TamerShlash/symbolized'
+
+  s.add_development_dependency 'minitest',   '~> 5.1'
 end

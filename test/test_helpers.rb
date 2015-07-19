@@ -1,3 +1,5 @@
+gem 'minitest'
+require 'minitest'
 require 'minitest/autorun'
 
 module Symbolized
