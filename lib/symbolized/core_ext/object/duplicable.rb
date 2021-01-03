@@ -83,7 +83,7 @@ unless defined? ActiveSupport
     # raises TypeError exception. Checking here on the runtime whether BigDecimal
     # will allow dup or not.
     begin
-      BigDecimal.new('4.56').dup
+      BigDecimal('4.56').dup
 
       def duplicable?
         true
